@@ -1,0 +1,7 @@
+{
+    "api": {
+        "baseAPIAddress": "http://localhost:7232/",
+
+        "workflows": "api/Workflows/all"
+    }
+}

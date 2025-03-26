@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceCreamCompany.Api", "IceCreamCompany\IceCreamCompany.Api.csproj", "{BC201DC5-2C6A-4C8D-BAF4-9B67137246B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IceCreamCompany.Api", "IceCreamCompany.Api", "{67625E78-7D59-4753-A640-B6477D3B75CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IceCreamCompany.Infrastucture", "IceCreamCompany.Infrastucture", "{404BC3B6-44C0-4F47-8A01-CA46EDDB7724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceCreamCompany.Data", "IceCreamCompany.Data\IceCreamCompany.Data.csproj", "{42AEA7F6-D1DB-4025-888D-7D16199C65F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IceCreamCompany.Domain", "IceCreamCompany.Domain", "{24D8C423-72AA-44A4-8C84-2D33A80AB566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceCreamCompany.Domain", "IceCreamCompany.Domain\IceCreamCompany.Domain.csproj", "{F472631C-E1C1-4B8B-9CDC-0035B43B6080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IceCreamCompany.Application", "IceCreamCompany.Application", "{64A1E65F-1172-424F-81F3-8B5121FC0EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceCreamCompany.Application.Core", "IceCreamCompany.Application.Core\IceCreamCompany.Application.Core.csproj", "{FE415950-9AEA-4F58-9E71-42674C75B460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8B7419C0-B42C-413E-B1C9-436EFEAFEDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceCreamCompany.Tests", "IceCreamCompany.Tests\IceCreamCompany.Tests.csproj", "{CCCFC6B2-6F24-40F3-91BD-9F5DA88570EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IceCreamCompany.WebApp", "IceCreamCompany.WebApp", "{48BE0445-AC93-40E7-A92A-935137D7FAF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC201DC5-2C6A-4C8D-BAF4-9B67137246B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC201DC5-2C6A-4C8D-BAF4-9B67137246B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC201DC5-2C6A-4C8D-BAF4-9B67137246B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC201DC5-2C6A-4C8D-BAF4-9B67137246B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AEA7F6-D1DB-4025-888D-7D16199C65F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AEA7F6-D1DB-4025-888D-7D16199C65F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AEA7F6-D1DB-4025-888D-7D16199C65F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AEA7F6-D1DB-4025-888D-7D16199C65F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F472631C-E1C1-4B8B-9CDC-0035B43B6080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F472631C-E1C1-4B8B-9CDC-0035B43B6080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F472631C-E1C1-4B8B-9CDC-0035B43B6080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F472631C-E1C1-4B8B-9CDC-0035B43B6080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE415950-9AEA-4F58-9E71-42674C75B460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE415950-9AEA-4F58-9E71-42674C75B460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE415950-9AEA-4F58-9E71-42674C75B460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE415950-9AEA-4F58-9E71-42674C75B460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCFC6B2-6F24-40F3-91BD-9F5DA88570EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCFC6B2-6F24-40F3-91BD-9F5DA88570EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCFC6B2-6F24-40F3-91BD-9F5DA88570EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCFC6B2-6F24-40F3-91BD-9F5DA88570EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC201DC5-2C6A-4C8D-BAF4-9B67137246B0} = {67625E78-7D59-4753-A640-B6477D3B75CC}
+		{42AEA7F6-D1DB-4025-888D-7D16199C65F0} = {404BC3B6-44C0-4F47-8A01-CA46EDDB7724}
+		{F472631C-E1C1-4B8B-9CDC-0035B43B6080} = {24D8C423-72AA-44A4-8C84-2D33A80AB566}
+		{FE415950-9AEA-4F58-9E71-42674C75B460} = {64A1E65F-1172-424F-81F3-8B5121FC0EAC}
+		{CCCFC6B2-6F24-40F3-91BD-9F5DA88570EB} = {8B7419C0-B42C-413E-B1C9-436EFEAFEDAF}
+	EndGlobalSection
+EndGlobal
