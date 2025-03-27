@@ -9,7 +9,6 @@ import 'vue-toastification/dist/index.css';
 const app = createApp(App);
 
 app.use(Toast, {
-  // Optional options
   position: 'top-right',
   timeout: 5000,
 });
