@@ -10,6 +10,9 @@
 - [Product Structure](#product-structure)
 ---
 
+![Workflows screenshot](https://raw.githubusercontent.com/StoevG/IceCreamCompany/refs/heads/main/docs/images/FE.png)
+![Swagger UI screenshot](https://raw.githubusercontent.com/StoevG/IceCreamCompany/refs/heads/main/docs/images/BE.png)
+
 ## Technical Overview
 
 IceCreamCompany API is built using **Clean Architecture** with a clear separation of concerns:
